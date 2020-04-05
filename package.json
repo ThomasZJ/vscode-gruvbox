@@ -1,0 +1,25 @@
+{
+  "name": "vscode-gruvbox",
+  "displayName": "vscode-gruvbox",
+  "description": "the gruvbox theme",
+  "publisher": "ThomasZhang",
+  "repository": {
+    "url": "https://github.com/ThomasZJ/vscode-gruvbox.git"
+  },
+  "version": "1.0.1",
+  "engines": {
+    "vscode": "^1.40.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Gruvbox",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Gruvbox-color-theme.json"
+      }
+    ]
+  }
+}
